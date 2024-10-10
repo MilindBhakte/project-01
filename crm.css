@@ -1,0 +1,358 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+.sidebarcontent {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+}
+.sidebarcontent #logo {
+    padding-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    width: 150px; 
+}
+.buttons #homebutton{
+    margin-left: 15px;
+    width:16px;
+    background-color: rgb(145, 151, 179);
+    border-radius: 10px;
+    padding: 4px;
+}    
+.buttons #setting{
+    margin-left: 5px;
+    width: 16px;
+    background-color: rgb(145, 151, 179);
+    border-radius: 10px;
+    padding: 4px;
+}    
+.buttons #logout{
+    margin-left: 5px;
+    width: 16px;
+    background-color: rgb(145, 151, 179);
+    border-radius: 10px;
+    padding: 4px;
+}    
+.Sales #infobig {
+    padding-top: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffa500;
+    display: block;
+}
+.Sales #infosmall {
+    padding-top: 2%;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #9197b3;
+    display: block;
+}
+.Sales #smallicons {
+    width: 10px;
+    margin-right: 2%;
+}
+.Sales #infosmall:hover {
+    background-color: #ffa500;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.Purchase #infobig {
+    padding-top: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #00a814;
+    display: block;
+}
+.Purchase #infosmall {
+    padding-top: 2%;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #9197b3;
+    display: block;
+}     
+.Purchase #smallicons {
+    width: 10px;
+    margin-right: 2%;
+}   
+.Purchase #infosmall:hover {
+    background-color: #00a814;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.Customers #infobig {
+    padding-top: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #0331b0;
+    display: block;
+}
+.Customers #infosmall {
+    padding-top: 2%;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #9197b3;
+    display: block;
+}   
+.Customers #smallicons {
+    width: 10px;
+    margin-right: 2%;
+}    
+.Customers #infosmall:hover {
+    background-color: #0331b0;
+    border-radius: 5px;
+    color: #ffffff;
+} 
+.sidefooter b {
+position: absolute;
+padding-left: 56px;
+bottom: 7.5%;
+font-size: 15px;
+color:#000; 
+}
+.sidefooter c {
+position: absolute;
+padding-left: 57px;
+bottom: 6%;
+font-size: 10px;
+color: #000;; 
+}
+.sidebarcontent #dp {
+     position: absolute;
+     padding-left: 6px;
+     bottom: 5%;
+     width: 25%;
+    
+}
+h1 {
+    padding-left: 50px;
+    margin-left: 200px;
+    height: 80px;
+    color: #1E3267;
+    text-align: left;
+}
+#date {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    transform: translateY(-50%);
+    font-style: italic;
+    font-size: 15px;
+    color: #1e3267;
+}
+#time {
+    position: absolute;
+    top: 45px;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    color: #1e3267;
+
+}        
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+    font-style: oblique;
+    font-size: small;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input,
+.form-group textarea {
+    box-shadow: 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.card {
+    background-color: #ffffff;
+    background-image: url("/Frontend Img/semitran-IDI\ LOGO.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    box-shadow:  4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+}    
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+.form-group input,
+.form-group textarea {
+    box-shadow: 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group #createquote {
+    width: 100%;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #004895;
+    color: #cbcfe0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-group #createquote:hover{
+    background-color: #0331b0;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.card {
+    background-color: #ffffff;
+    background-image: url("/Frontend Img/semitran-IDI\ LOGO.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    box-shadow:  4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+}    
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+.form-group input,
+.form-group textarea {
+    box-shadow: 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.card {
+    background-color: #ffffff;
+    background-image: url("/Frontend Img/semitran-IDI\ LOGO.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    box-shadow:  4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+}    
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input,
+.form-group textarea {
+    box-shadow: 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.container {
+    width: 1000px;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-image: url("/Frontend Img/semitran-IDI\ LOGO.png");
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.header h1 {
+    font-size: 18px;
+    margin: 0;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 30%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.form-group select {
+    width: 5%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.icons img {
+    margin-right: 10px;
+}
+.checkboxes {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.checkboxes label {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.checkboxes input {
+    margin-right: 10px;
+}

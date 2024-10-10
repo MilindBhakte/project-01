@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDI CRM SOFTWARE</title>
+    <link rel="stylesheet" href="crm.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebarcontent">
+        <img id="logo" src="/Frontend Img/IDI LOGO BG Removed RGB.png">
+    <div class="buttons">
+        <a href="dashboard.html">
+            <img id="homebutton"  src="/Frontend Img/Home.png">
+        </a>
+        <a href="#setting">
+            <img id="setting"  src="/Frontend Img/setting.png">
+        </a>
+        <a href="#logout">
+            <img id="logout"  src="/Frontend Img/logout.png">
+        </a>
+    </div>       
+        <div class="sidebarinfo">
+            <div class="Sales">
+                <a id="infobig" href="Sales">Sales </a>
+                <a id="infosmall" href="quotation.html"><img id="smallicons" src="/Frontend Img/quote.png"> Quotation</a>
+                <a id="infosmall" href="#Purchase Order"><img id="smallicons" src="/Frontend Img/purchase order.png">Purchase Order</a>
+                <a id="infosmall" href="#Performa invoice"><img id="smallicons" src="/Frontend Img/performa invoice.png">Performa invoice</a>
+                <a id="infosmall" href="#Delivery Challan"><img id="smallicons" src="/Frontend Img/Delivery challan.png">Delivery Challan</a>
+                <a id="infosmall" href="#Invoice"><img id="smallicons" src="/Frontend Img/Invoice.png">Invoice</a>
+            </div>  
+            <div class="Purchase">
+                <a id="infobig">Purchases </a>
+                <a id="infosmall" href="#Purchase Order"><img id="smallicons" src="/Frontend Img/Purchase Order(producer).png">Purchase Order</a>
+                <a id="infosmall" href="#Payment Entry"><img id="smallicons" src="/Frontend Img/Payment Entry.png">Payment Entry</a>
+                <a id="infosmall" href="#Goods Received"><img id="smallicons" src="/Frontend Img/Goods Received.png">Goods Received</a>
+     </div> 
+     <div class="Customers">
+        <a id="infobig">Customers </a>
+        <a id="infosmall" href="#Add Customer"><img id="smallicons" src="/Frontend Img/Add Customer.png">Add Customer</a>
+        <a id="infosmall" href="#Previous Customers"><img id="smallicons" src="/Frontend Img/previous customer.png">Previous Customers</a>
+    </div>  
+    </div>
+    <div class="sidefooter">
+        <img id="dp" src="/Frontend Img/dp.png">
+        <b href="idinfo">Sachin Meshram</b>
+        <c href="email">marketing.@indodynamics.com</c>
+        </div>
+    </div>  
+    <h1>Hello Sachin Meshram👋🏻
+        <div id="date"></div> 
+        <div id="time"></div>
+    </h1>   
+    <div class="main-content">
+        <form id="form-container" class="container">
+            <div class="form-group icons">
+                <img src="/Frontend Img/company.png" alt="Phone Icon" width="20"> 
+                <input type="text" id="company" name="company" placeholder="Company">
+            </div>
+            
+            <div class="form-group">
+                <img src="/Frontend Img/user-icon.png" alt="User Icon" width="20"> 
+                <select id="title" name="title">
+                    <option value="mr">Mr.</option>
+                    <option value="ms">Ms.</option>
+                    <option value="mrs">Mrs.</option>
+                </select>
+                <input type="text" id="firstName" name="firstName" placeholder="First Name">
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+            </div>
+            
+            <div class="form-group">
+                <img src="/Frontend Img/phone-icon.png" alt="Phone Icon" width="20"> 
+                <input type="text" id="phone" name="phone" placeholder="+91 Mobile">
+            </div>
+            
+            <div class="form-group">
+                <img src="/Frontend Img/email-icon.png" alt="Email Icon" width="20"> 
+                <input type="email" id="email" name="email" placeholder="Email">
+            </div>
+            
+            <div class="form-group icons">
+                <img src="/Frontend Img/website-icon.png" alt="Website Icon" width="20"> 
+                <input type="text" id="website" name="website" placeholder="Website">
+            </div>
+            
+            <div class="form-group">
+                <img src="/Frontend Img/industry.png" alt="Industry" width="20"> 
+                <input type="text" id="industry" name="industry" placeholder="Industry">
+                <input type="text" id="Segment" name="Segment" placeholder="Segment">
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <img src="/Frontend Img/country.png" alt="Country" width="20"> 
+                   <input type="text" id="country" name="country" placeholder="Country">
+                   <input type="text" id="state" name="state" placeholder="State">
+                   <input type="text" id="city" name="city" placeholder="Enter City">
+            </div>
+            
+            <div class="checkboxes">
+                <label><input type="checkbox" name="type" value="customer">Customer</label>
+                <label><input type="checkbox" name="type" value="supplier">Supplier</label>
+            </div>
+            
+            <div class="button">
+                <button type="submit">Submit</button>  
+            </div>
+        </form>
+    <ul id="customer-list"></ul>
+    
+ <script src="script.js"></script>
+</body>
+</html>
